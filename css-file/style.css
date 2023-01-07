@@ -67,6 +67,48 @@ header > button {
   font-family: "Open Sans", sans-serif;
   align-items: center;
 }
+/* bonus section */
+.bonus-section {
+  display: flex;
+  flex-direction: column;
+}
+.bonus-section-head {
+  font-family: "Rubik", sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+.bonus-section-parant {
+  display: flex;
+  padding: 30px 80px;
+  gap: 50px;
+}
+.bonus-section-skill {
+  background-color: rgb(226, 215, 215);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.bonus-section-skill > h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+}
+.bonus-section-skill > p {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+.bonus-section-skill > button {
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(224, 49, 49);
+  letter-spacing: 1px;
+}
 /* my plane section */
 .my-plan {
   padding: 30px 80px;
