@@ -67,3 +67,31 @@ header > button {
   font-family: "Open Sans", sans-serif;
   align-items: center;
 }
+/* my plane section */
+.my-plan {
+  padding: 30px 80px;
+}
+.my-plan-header {
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.my-plan-fotter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.my-plan-fotter-parant {
+  text-align: center;
+}
+.my-plan-fotter-parant > h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 26px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.my-plan-fotter-parant > p {
+  font-family: "Open Sans", sans-serif;
+}
