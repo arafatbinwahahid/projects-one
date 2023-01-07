@@ -40,6 +40,7 @@ header > button {
 }
 /* section one */
 .precious-yc {
+  /* background-color: rgba(15, 38, 53, 0.39); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,5 +48,22 @@ header > button {
 }
 .precious-yc-text {
   padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.precious-yc-text > h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+}
+.precious-yc-text > p {
+  font-family: "Open Sans", sans-serif;
+}
+.precious-yc-list {
   list-style: none;
+}
+.precious-yc-list > li {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
 }
